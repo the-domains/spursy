@@ -1,6 +1,7 @@
 name: Spursy
 favicon: null
-layout_spectrum: 0.8
+layout_spectrum: 1
+typography_spectrum: 0.1449
 cta:
   domain: null
   bucket: null
@@ -14,11 +15,16 @@ opengraph:
   type: null
   appId: null
 color:
-  brandColors: []
-  brandStrength: 0
-  lightness: 0.5
-  saturation: 0.5
-  rhythmicContrast: 0.5
+  brandColors:
+    - '#001a57'
+    - '#ffffff'
+    - '#3e4f75'
+    - '#7986a1'
+    - '#c7cfdb'
+  brandStrength: 0.375
+  lightness: 0.6875
+  saturation: 0.375
+  rhythmicContrast: 1
 purpose:
   - name: engagement
     item: null
